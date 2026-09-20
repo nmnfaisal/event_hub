@@ -5,7 +5,7 @@ description: Use when setting up or working with Ktor client in KMP or Android p
 
 # Ktor Client for KMP and Android
 
-This reference covers the Ktor client configuration traps — plugin install order, serialization flags, auth refresh, and error mapping — not the basics of a shared `HttpClient`, engine selection, or `ContentNegotiation` setup. **Related:** `android-skills:android-data-layer` (repository + the `DataError` error model — its canonical home), `android-skills:android-retrofit` (Android-only equivalent).
+This reference covers the Ktor client configuration traps — plugin install order, serialization flags, auth refresh, and error mapping — not the basics of a shared `HttpClient`, engine selection, or `ContentNegotiation` setup. **Related:** `android-skills:android-data-layer` (repository + the `DataError` error model — its canonical home).
 
 ## Plugin install order — `HttpRequestRetry` BEFORE `HttpTimeout`
 

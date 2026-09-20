@@ -9,8 +9,10 @@ This reference covers two screen-structure details that are easy to skip — mak
 The screen/content split is common; making the **content composable `private`** (or `internal`) is the part that's easy to skip. The public screen composable wires the ViewModel; the private content composable is pure — testable, previewable, and impossible to accidentally hand a ViewModel from elsewhere.
 
 ```kotlin
+import org.koin.compose.viewmodel.koinViewModel  // requires koin-compose-viewmodel (KMP) or koin-androidx-compose (Android); see android-skills:koin
+
 @Composable
-fun UserDetailsScreen(userId: String, viewModel: UserDetailsViewModel = hiltViewModel()) {
+fun UserDetailsScreen(userId: String, viewModel: UserDetailsViewModel = koinViewModel()) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     LaunchedEffect(userId) { viewModel.loadUser(userId) }
     UserDetailsContent(uiState = uiState, onRetry = { viewModel.loadUser(userId) })
@@ -31,7 +33,7 @@ Pass **data, not the ViewModel**, down to child composables — `UserCard(user: 
 ```kotlin
 // ✅ framework state in the composable; the animation clock is owned by the composition
 @Composable
-fun ConversationScreen(viewModel: ConversationViewModel = hiltViewModel()) {
+fun ConversationScreen(viewModel: ConversationViewModel = koinViewModel()) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     val listState = rememberLazyListState()                 // stays here
     LaunchedEffect(uiState.scrollToTopSignal) { listState.animateScrollToItem(0) }

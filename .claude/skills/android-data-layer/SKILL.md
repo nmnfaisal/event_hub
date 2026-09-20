@@ -5,7 +5,7 @@ description: Use when implementing the data layer in Android or KMP — the Repo
 
 # Android Data Layer
 
-The data layer coordinates data from multiple sources; its public API is repository interfaces, and its internals (DAOs, API services, DTOs) never leak upward. This skill is the canonical home for the **error-propagation model**, plus the KMP-Room setup. **Related:** `android-skills:android-retrofit` (Retrofit service/OkHttp/Hilt wiring), `android-skills:android-dev` (overall app architecture).
+The data layer coordinates data from multiple sources; its public API is repository interfaces, and its internals (DAOs, API services, DTOs) never leak upward. This skill is the canonical home for the **error-propagation model**, plus the KMP-Room setup. **Related:** `android-skills:kmp-ktor` (Ktor client, error mapping), `android-skills:android-dev` (overall app architecture).
 
 ## Error propagation — the layered model
 

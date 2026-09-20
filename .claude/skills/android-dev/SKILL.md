@@ -7,7 +7,7 @@ description: >
   Ktor, ViewModel, LiveData, StateFlow, SharedFlow, Compose, Activity, Fragment, Intent, ADB,
   Logcat, MVVM, MVI, repository pattern, or any Android SDK / Jetpack / AndroidX API. Always
   load this skill alongside the more specific skills (android-skills:compose,
-  android-skills:kotlin-flows, android-skills:kmp-ktor, android-skills:android-retrofit,
+  android-skills:kotlin-flows, android-skills:kmp-ktor,
   etc.): it routes to them and adds the few baseline rules that are easy to get wrong. Casual
   mentions like "fix this bug in my Android app," "refactor this ViewModel," "my KMP project,"
   or any work inside an Android project directory should trigger this skill.
@@ -17,9 +17,9 @@ description: >
 
 House defaults — apply them without reminders or re-derivation; where the project's actual conventions differ, follow the project:
 
-- **DI:** Hilt + KSP (or `android-skills:koin` when the project uses Koin). **Async:** Coroutines/Flow — no `LiveData` in new code. **JSON:** `kotlinx.serialization`. **Images:** Coil.
-- **Network/local:** Android uses Retrofit/OkHttp + Room; KMP shared uses Ktor + Room or SQLDelight. Retrofit is Android-only — never in a shared module.
-- **Modules:** feature-vertical packages and modules; `:core:model` has zero Android deps; `:feature:*` modules never depend on each other.
+- **DI:** Koin (see `android-skills:koin`). **Async:** Coroutines/Flow — no `LiveData` in new code. **JSON:** `kotlinx.serialization`. **Images:** Coil.
+- **Network/local:** Ktor + Room or SQLDelight (see `android-skills:kmp-ktor`). OkHttp is used only as a Ktor engine on Android.
+- **Modules:** feature-vertical packages and modules; `:core:model` has zero Android deps; `:feature:*` modules never depend on each other (summary; `android-skills:modularization` is authoritative).
 - **Errors:** mapped to a domain type at the repository boundary — platform exceptions never leak past it; UI state explicitly models loading / success / error (see `android-skills:android-data-layer`).
 
 ## Skill routing
@@ -32,7 +32,7 @@ Load the specific skill for the task, always with the **fully-qualified `android
 | M3 UX — touch targets, adaptive/foldable layouts, accessibility & M3-compliance audit | `android-skills:android-ux` |
 | Coroutines & Flow — operators, `Channel` vs `SharedFlow`, structured concurrency | `android-skills:kotlin-coroutines`, `android-skills:kotlin-flows` |
 | Repository / data layer + error model | `android-skills:android-data-layer` |
-| Networking | `android-skills:android-retrofit` (Android) · `android-skills:kmp-ktor` (KMP) |
+| Networking | `android-skills:kmp-ktor` |
 | Paging | `android-skills:paging` |
 | Image loading | `android-skills:coil-compose` |
 | Preferences / typed local storage | `android-skills:datastore` |
@@ -84,7 +84,7 @@ class FooViewModel(/* … */) : ViewModel(), FooActions {
 }
 
 @Composable
-fun FooScreen(viewModel: FooViewModel = hiltViewModel(), onNavigate: (String) -> Unit) {
+fun FooScreen(viewModel: FooViewModel = koinViewModel(), onNavigate: (String) -> Unit) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     val lifecycle = LocalLifecycleOwner.current.lifecycle
     LaunchedEffect(Unit) {

@@ -5,13 +5,13 @@ description: Use when implementing paginated lists in Android or Compose with Pa
 
 # Paging 3 for Android and Compose
 
-Adapted from [Meet-Miyani/compose-skill](https://github.com/Meet-Miyani/compose-skill)'s Paging references. MIT licensed. **Related:** `android-skills:android-data-layer` (non-paged repository), `android-skills:android-retrofit` / `android-skills:kmp-ktor` (network feeding `PagingSource`), `android-skills:compose` (`LazyColumn`).
+Adapted from [Meet-Miyani/compose-skill](https://github.com/Meet-Miyani/compose-skill)'s Paging references. MIT licensed. **Related:** `android-skills:android-data-layer` (non-paged repository), `android-skills:kmp-ktor` (network feeding `PagingSource`), `android-skills:compose` (`LazyColumn`).
 
 This reference covers the current-version fact, the placement and identity rules that are easy to get wrong, and the `RemoteMediator` offline-first timing — not the basics of `PagingSource` / `Pager` / `collectAsLazyPagingItems`.
 
 ## Version (current fact)
 
-As of `androidx.paging` **3.5.0**, `paging-common`, `paging-compose`, and `paging-testing` are Kotlin Multiplatform (Android, JVM, iOS, Native, JS/Wasm); only `paging-runtime` (and `-guava`/`-rxjava`) stay Android-only. So in a clean-architecture domain module, depend only on `androidx.paging:paging-common` — it ships `PagingSource` / `PagingData` / `LoadResult` with no Android dependency, so `PagingSource` interfaces and use cases can live in domain. (Verify the current version and KMP support at the [releases page](https://developer.android.com/jetpack/androidx/releases/paging).)
+As of `androidx.paging` **3.5.0**, `paging-common`, `paging-compose`, and `paging-testing` are Kotlin Multiplatform (Android, JVM, iOS, Native, JS/Wasm); only `paging-runtime` (and `-guava`/`-rxjava`) stay Android-only. So in a clean-architecture domain module, depend only on `androidx.paging:paging-common` — it ships `PagingSource` / `PagingData` / `LoadResult` with no Android dependency. `PagingSource`, `PagingData`, and `LoadResult` are allowed in `:domain` because `paging-common` is pure Kotlin, available on all KMP targets, and carries no platform runtime. This is an explicitly named exception to the "no framework types in domain" rule, not a precedent for importing other AndroidX artifacts (see `android-skills:modularization`). (Verify the current version and KMP support at the [releases page](https://developer.android.com/jetpack/androidx/releases/paging).)
 
 ## Dual-flow rule — `PagingData` is its own `Flow`, never a field in `UiState`
 

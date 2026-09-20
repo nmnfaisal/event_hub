@@ -69,7 +69,7 @@ A composable's contract is "render state, emit callbacks" — test exactly that;
 | Focus navigation, keyboard, TV/D-pad | Compose test with `performKeyInput` + `assertIsFocused()` (see `compose/references/focus-navigation.md`) |
 | Visual contract semantics can't prove — spacing, themed colour, typography, elevation, gradients, skeletons | Screenshot test, one per meaningful state |
 | State holder updates UI correctly | State-holder unit test + ONE wiring smoke test |
-| Lifecycle, navigation, or DI integration itself | Integration test (`createAndroidComposeRule`, Hilt rule, real graph) |
+| Lifecycle, navigation, or DI integration itself | Integration test (`createAndroidComposeRule`, Koin test rule (`KoinTestRule`), real graph) |
 
 **Test clock vs wall clock:** for any Compose-state-observable condition use `mainClock.advanceTimeUntil(ms) { state.value == Done }` (deterministic, fast); use `rule.waitUntil(ms) { … }` only for non-Compose conditions (`Job.isCompleted`, an external counter). Mixing the two in one test is a common flake source.
 
