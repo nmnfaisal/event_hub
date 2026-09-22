@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Event Hub"
 include(":app")
+include(":shared")
