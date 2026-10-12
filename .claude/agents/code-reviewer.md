@@ -72,14 +72,14 @@ For each rule, check explicitly and report violations:
 
 ### Rule 7: Build Order
 - **Violation**: Data layer built before domain is complete
-- **Expected**: Domain → presentation → data
+- **Expected**: Domain → ui → data
 
 ### Rule 8: API Documentation
 - **Violation**: New API endpoint with no entry in API_NOTES.md
 - **Expected**: Questions documented about pagination, error contract, rate limits, caching
 
 ### Rule 9: Core Zero Domain Knowledge
-- **Violation**: Core module importing feature-specific types, feature DTOs in core:data
+- **Violation**: Core module importing feature-specific types, feature DTOs in core:network or core:database
 - **Expected**: Deleting all feature code would not break any core module
 
 ### Rule 10: Null vs Empty

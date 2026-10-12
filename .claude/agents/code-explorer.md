@@ -45,7 +45,7 @@ Provide a complete understanding of how a specific feature or area works by trac
 ## Analysis Approach
 
 ### 1. Module Discovery
-- Identify which modules are involved (`:feature:X:domain`, `:feature:X:data`, `:feature:X:presentation`, `:core:*`)
+- Identify which modules are involved (`:feature:X:domain`, `:feature:X:data`, `:feature:X:ui`, `:core:*`)
 - Map the dependency graph between these modules
 - Check `settings.gradle.kts` for the full module list
 - Check `build.gradle.kts` files for `implementation` vs `api` dependencies

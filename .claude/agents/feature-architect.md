@@ -47,13 +47,14 @@ Design feature module structures that follow Lackner's vertical slicing pattern 
 ### Module Types (from CLAUDE.md)
 
 **Core modules** (shared infrastructure, ZERO domain knowledge — Rule 9):
-- `:core:domain` — shared Result type, error types, value classes (pure Kotlin)
-- `:core:designsystem` — theme, reusable composables (primitives only — Rule 5)
-- `:core:data` — HttpClient, DataStore instances (no domain knowledge)
+- `:core:model` — Result/DataError, Money, value-class IDs, cross-feature contracts (pure Kotlin)
+- `:core:network` — Ktor HttpClient, API-key plugin, base URL (no domain knowledge)
+- `:core:database` — Room driver factory only (no entities, no DAOs)
+- `:core:ui` — theme, shared composables (primitives only — Rule 5)
 
 **Feature modules** (per-feature vertical slices):
 - `:feature:X:domain` — feature's models, repository interface, use cases (pure Kotlin)
-- `:feature:X:presentation` — ViewModel, Screen, MVI state/action/event
+- `:feature:X:ui` — ViewModel, Screen, MVI state/action/event
 - `:feature:X:data` — API service, DTOs, mapper, repository impl (all `internal`)
 
 ### Design Process
@@ -63,9 +64,9 @@ Design feature module structures that follow Lackner's vertical slicing pattern 
 2. **Determine which layers are justified**:
    - **Domain**: Needed when there are business rules, shared repository interfaces, or models used by other features. Skip if the feature is purely presentational (e.g., a static "about" screen).
    - **Data**: Needed when the feature fetches from network/database. Skip if the feature only consumes data from other features via shared contracts.
-   - **Presentation**: Almost always needed — it's the screen itself.
+   - **UI**: Almost always needed — it's the screen itself.
 
-3. **Check cross-feature dependencies**: Features never depend on each other. Shared data flows through `:core:domain` contracts or navigator interfaces assembled in `:app`.
+3. **Check cross-feature dependencies**: Features never depend on each other. Shared data flows through `:core:model` contract types and callbacks wired in `:shared` (ADR-001).
 
 4. **Validate against the 10 rules**:
    - Rule 1: ViewModels use reactive flow (`flatMapLatest` + `combine` + `stateIn`)
@@ -74,7 +75,7 @@ Design feature module structures that follow Lackner's vertical slicing pattern 
    - Rule 4: Value classes for all IDs (`EventId`, `UserId`, `TicketId`)
    - Rule 5: Design system composables take primitives only
    - Rule 6: Contract tests for every API response
-   - Rule 7: Build order is domain → presentation → data
+   - Rule 7: Build order is domain → ui → data
    - Rule 8: Document API questions in API_NOTES.md
    - Rule 9: Core has zero domain knowledge
    - Rule 10: Null vs empty distinction (null = never loaded, empty = no results)
@@ -87,7 +88,7 @@ For each feature, provide:
 2. **Modules needed** with justification:
    - `:feature:X:domain` — needed because... / skipped because...
    - `:feature:X:data` — needed because... / skipped because...
-   - `:feature:X:presentation` — needed because...
+   - `:feature:X:ui` — needed because...
 3. **Key types** per module (models, interfaces, ViewModels, DTOs)
 4. **Dependencies**: What this feature depends on (core modules, other feature contracts)
 

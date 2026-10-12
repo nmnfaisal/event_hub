@@ -1,15 +1,20 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
+# Build output (all modules)
+build/
+.gradle/
+.kotlin/
 .externalNativeBuild
 .cxx
+/captures
+
+# IDE
+.idea/
+*.iml
+
+# Local config and secrets
 local.properties
+.claude/settings.local.json
+# Generated from TICKETMASTER_API_KEY in local.properties (core/network/build.gradle.kts)
+**/build/generated/apikey/
+
+# OS
+.DS_Store

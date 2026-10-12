@@ -81,7 +81,7 @@ fun `deserialize empty events response`() {
 - Test all MVI actions produce expected state transitions
 - Test error states map correctly via `Result`
 - Fake the repository (implement the interface), don't mock
-- Location: `:feature:X:presentation` test source set
+- Location: `:feature:X:ui` test source set
 
 ### Repository Tests
 - Test mapper logic: DTO with nulls → filtered domain models
@@ -95,7 +95,7 @@ fun `deserialize empty events response`() {
 - `testTag` only as last resort for elements with no semantic meaning
 - **The two-schedulers trap**: Compose tests use `StandardTestDispatcher` by default. If your test launches coroutines, you must `advanceUntilIdle()` or use `runTest` with the correct dispatcher.
 - Test the three states: loading (null data → shimmer), empty (emptyList → "no items"), populated (data → list items)
-- Location: `:feature:X:presentation` test source set
+- Location: `:feature:X:ui` test source set
 
 ## KMP Test Placement
 

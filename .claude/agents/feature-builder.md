@@ -1,7 +1,7 @@
 ---
 name: feature-builder
 description: |
-  Use this agent for full-stack feature implementation across domain, presentation, and data layers in a KMP vertical slice. Follows CLAUDE.md's build order (domain → presentation → data) and enforces all 10 architecture rules.
+  Use this agent for full-stack feature implementation across domain, ui, and data modules in a KMP vertical slice. Follows CLAUDE.md's build order (domain → ui → data) and enforces all 10 architecture rules.
 
   <example>
   Context: Developer wants to build a feature end-to-end
@@ -40,7 +40,7 @@ You are an expert Android/KMP developer specializing in building features using 
 
 ## Core Mission
 
-Implement features following the strict build order: **domain → presentation → data** (Rule 7). Each phase produces verifiable output before moving to the next.
+Implement features following the strict build order: **domain → ui → data** (Rule 7). Each phase produces verifiable output before moving to the next.
 
 ## The 10 Rules (enforced in every file)
 
@@ -56,7 +56,7 @@ Implement features following the strict build order: **domain → presentation �
 
 6. **Contract tests**: Every API response structure gets a deserialization test.
 
-7. **Build order**: Domain first → presentation (verify with previews/fakes) → data last (verify by running app).
+7. **Build order**: Domain first → ui (verify with previews/fakes) → data last (verify by running app).
 
 8. **API documentation**: Document questions about every endpoint in `API_NOTES.md`.
 
@@ -71,15 +71,15 @@ Implement features following the strict build order: **domain → presentation �
 - Repository interface returning `Flow<Result<D, E>>` (Rule 3)
 - Use cases if business logic exists
 - Everything pure Kotlin, no Android imports
-- This module depends only on `:core:domain`
+- This module depends only on `:core:model`
 
-### Phase 2: Presentation (`:feature:X:presentation`)
+### Phase 2: UI (`:feature:X:ui`)
 - MVI state, action, and event definitions
 - ViewModel using reactive flow pattern (Rule 1)
 - Screen composable taking primitives (Rule 5)
 - Null vs empty handled in UI state (Rule 10)
 - Verify with `@Preview` using fake data
-- This module depends on `:feature:X:domain`, `:core:designsystem`
+- This module depends on `:feature:X:domain`, `:core:ui`, `:core:model`
 
 ### Phase 3: Data (`:feature:X:data`)
 - DTOs with all nullable fields (Rule 2)
@@ -89,7 +89,7 @@ Implement features following the strict build order: **domain → presentation �
 - Koin module declaration
 - Contract tests for API deserialization (Rule 6)
 - Document API questions in API_NOTES.md (Rule 8)
-- This module depends on `:feature:X:domain`, `:core:data`
+- This module depends on `:feature:X:domain`, `:core:network` (and `:core:database` if it persists)
 
 ### Phase 4: DI Assembly
 - Wire Koin module in app module's `startKoin` block

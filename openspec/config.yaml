@@ -1,0 +1,33 @@
+schema: spec-driven
+
+# Project context — constraints an agent cannot infer from the code.
+# Full rules live in CLAUDE.md; this is the subset that shapes planning artifacts.
+context: |
+  Kotlin Multiplatform + Compose Multiplatform app (Android + iOS). Koin, Ktor, kotlinx.serialization, DataStore, MVI.
+  Practice project: every change must demonstrate the 10 architecture rules in CLAUDE.md.
+  Modules are per-feature vertical slices (:feature:<name>:domain / :ui / :data); core modules have ZERO domain knowledge.
+  Architecture decisions are recorded as ADRs in docs/adr/.
+
+rules:
+  proposal:
+    - List which modules the change touches and justify any new module (only create justified layers)
+    - State what is out of scope
+  design:
+    - Show repository signatures as Flow<Result<D, E>> and name the error type
+    - Show ViewModel state derivation with flatMapLatest/combine/stateIn — no MutableStateFlow.update, no try/catch
+    - Use value classes for opaque IDs (EventId, TicketId, UserId)
+    - Model loading as null = never loaded, emptyList() = loaded but empty
+    - Design-system composables take primitives only; mapping from domain happens in the feature ui module
+    - If a decision is architecturally significant, note that an ADR should be added under docs/adr/
+  specs:
+    - Include scenarios for empty response (Success(emptyList())), network error, and never-loaded state for every data-backed requirement
+  tasks:
+    - Order tasks domain -> ui (with previews and fake data) -> data, per CLAUDE.md Rule 7
+    - Every new API endpoint gets a contract (deserialization) test task and an API_NOTES.md task
+    - DTO tasks must specify nullable fields with null defaults and mapper filtering of invalid entries
+
+operations:
+  apply:
+    guidance:
+      - Flag any violation of the 10 rules in CLAUDE.md before writing code
+      - Run the code-reviewer agent on the change before marking the last task done
