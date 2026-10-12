@@ -1,0 +1,13 @@
+{
+  "_links": {
+    "self": {
+      "href": "/discovery/v2/events.json?city=Berlin&countryCode=DE&keyword=zzqxvq"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 0,
+    "totalPages": 0,
+    "number": 0
+  }
+}

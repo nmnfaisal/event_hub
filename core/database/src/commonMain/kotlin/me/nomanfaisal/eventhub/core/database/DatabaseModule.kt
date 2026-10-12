@@ -1,5 +1,11 @@
 package me.nomanfaisal.eventhub.core.database
 
-// Room driver factory and BundledSQLiteDriver setup.
-// Each feature's :data module owns its own @Database.
-// This module provides only the driver builder utilities.
+import org.koin.core.module.Module
+import org.koin.core.scope.Scope
+import org.koin.dsl.module
+
+internal expect fun Scope.createDatabasePlatform(): DatabasePlatform
+
+val databaseModule: Module = module {
+    single { createDatabasePlatform() }
+}

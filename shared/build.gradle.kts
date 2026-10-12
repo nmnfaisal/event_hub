@@ -11,6 +11,10 @@ kotlin {
         namespace = "me.nomanfaisal.eventhub.shared"
         compileSdk = 37
         minSdk = 26
+
+        withHostTest {
+            isIncludeAndroidResources = true
+        }
     }
 
     listOf(
@@ -23,7 +27,7 @@ kotlin {
         }
     }
 
-    jvmToolchain(11)
+    jvmToolchain(17)
 
     @Suppress("DEPRECATION_ERROR")
     sourceSets {
@@ -51,6 +55,16 @@ kotlin {
 
             implementation(libs.koin.core)
             implementation(libs.koin.compose)
+            implementation(libs.kotlinx.coroutines.core)
+        }
+        commonTest.dependencies {
+            implementation(kotlin("test"))
+        }
+        getByName("androidHostTest").dependencies {
+            implementation(libs.robolectric)
+            implementation(libs.androidx.junit)
+            implementation(libs.androidx.core.ktx)
+            implementation(libs.koin.android)
         }
 
         androidMain.dependencies {

@@ -11,14 +11,21 @@ Pinned versions for the project skeleton:
 |------|---------|-----------|
 | Kotlin | 2.2.20 | Must match KSP and CMP compatibility |
 | Compose Multiplatform | 1.10.3 | Requires Kotlin >= 2.2.20 for iOS targets |
-| KSP | 2.2.20-2.0.3 | Prefix must match Kotlin version |
+| KSP | 2.3.4 | Changed from 2.2.20-2.0.3: that plugin throws `KotlinMultiplatformAndroidCompilationImpl cannot be cast to KotlinJvmAndroidCompilation` with AGP's `com.android.kotlin.multiplatform.library`. 2.3.0 fails the same way; 2.3.4 configures and runs on Kotlin 2.2.20 |
 | AGP | 9.4.1 | Already in project, stable |
 | Gradle | 9.6.0 | Required by AGP 9.4.x |
 | kotlinx-serialization | 1.9.0 | 1.10.0 requires Kotlin 2.3+; KLIBs fail on 2.2.20 |
 | Koin BOM | 4.1.1 | Explicit per-artifact versions (KMP platform() is deprecated) |
 | Ktor | 3.1.0 | Latest stable |
-| Room / sqlite-bundled | 2.7.1 | Deferred from skeleton — no entities yet |
+| Room / sqlite-bundled | 2.7.0 / 2.5.0 | Activated in `events-home`. Changed from 2.7.1: the 2.7.1 iOS klibs are built by Kotlin 2.3.20 (ABI 2.3.0) and the 2.2.20 compiler rejects them. 2.7.0 consumes fine. Revisit with the Kotlin 2.3 upgrade |
 | Coil 3 | 3.3.0 | Deferred from skeleton — no image loading yet |
+| kotlinx-coroutines | 1.10.2 | Added in `events-home` (core, test) |
+| kotlinx-datetime | 0.7.1 | Added in `events-home` (`:feature:events:data` date parsing/time zones) |
+| kotlinx-io-core | 0.8.0 | Test only: reads JSON fixtures on JVM and iOS simulator |
+| JetBrains lifecycle-viewmodel-compose | 2.10.0 | Added in `events-home` (ViewModel in common code) |
+| ktor-client-mock | 3.1.0 | Test only; matches Ktor |
+| Turbine | 1.2.0 | Test only: Flow assertions |
+| Robolectric | 4.16 | Test only: Android host tests for Room and Compose |
 
 ## CMP compose accessor deprecation
 

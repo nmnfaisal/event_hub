@@ -1,0 +1,2234 @@
+{
+  "_embedded": {
+    "events": [
+      {
+        "name": "bleood - Kill Your Idols Europe Tour",
+        "type": "event",
+        "id": "Z698xZC2Z16vxkJ3ut",
+        "test": false,
+        "url": "https://www.ticketmaster.de/event/bleood-kill-your-idols-europe-tour-tickets/1886992369?language=en-us",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_SOURCE",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/12c/9fd3f127-dc90-4c36-a36a-f89f325e912c_SOURCE",
+            "width": 2426,
+            "height": 1365,
+            "fallback": false
+          },
+          {
+            "url": "https://s1.ticketm.net/dam/a/aae/f560c8f6-961d-48dc-9cb8-a2678407baae_SOURCE",
+            "width": 3222,
+            "height": 4000,
+            "fallback": false
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          }
+        ],
+        "sales": {
+          "public": {
+            "startDateTime": "2026-07-17T07:00:00Z",
+            "startTBD": false,
+            "startTBA": false,
+            "endDateTime": "2026-10-12T10:00:00Z"
+          },
+          "presales": [
+            {
+              "startDateTime": "2026-07-15T07:00:00Z",
+              "endDateTime": "2026-07-17T07:00:00Z",
+              "name": "Artist Presale",
+              "description": "Tickets are available exclusively to fans who have been invited by the artist and may require a unique link or code to access tickets.",
+              "shortDescription": "Exclusive Presale for Fans invited by the Artist"
+            },
+            {
+              "startDateTime": "2026-07-16T07:00:00Z",
+              "endDateTime": "2026-07-17T07:00:00Z",
+              "name": "Ticketmaster Presale",
+              "description": "Access this presale at the link below with your Ticketmaster account. Sign in or create an account prior to the start of the sale. No presale code is required.",
+              "shortDescription": "View the link for this presale that is open to all fans",
+              "url": "https://www.ticketmaster.de/event/1886992369?subchannel_id=11911"
+            },
+            {
+              "startDateTime": "2026-07-15T07:00:00Z",
+              "endDateTime": "2026-07-17T07:00:00Z",
+              "name": "PayPal Prio Tickets",
+              "description": "To access the PayPal Prio presale, you must have an active PayPal account and login. Please visit the PayPal Prio Tickets site to access this sale.",
+              "shortDescription": "Exclusive Presale for PayPal customers",
+              "linkDescription": "More Info",
+              "url": "https://www.paypalpriotickets.de/"
+            },
+            {
+              "startDateTime": "2026-07-15T07:00:00Z",
+              "endDateTime": "2026-07-17T07:00:00Z",
+              "name": "Telekom Prio Tickets",
+              "description": "To access the Telekom Prio presale, you must have an active Telekom contract and Telekom login. Please visit the Magenta MusikPrio Tickets site to access this sale.",
+              "shortDescription": "Exclusive Presale for Telekom customers",
+              "linkDescription": "More Info",
+              "url": "https://www.magentamusik.de/prio-tickets"
+            }
+          ]
+        },
+        "dates": {
+          "start": {
+            "localDate": "2026-10-12",
+            "localTime": "20:00:00",
+            "dateTime": "2026-10-12T18:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "Europe/Berlin",
+          "status": {
+            "code": "offsale"
+          },
+          "spanMultipleDays": false
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAv1",
+              "name": "Hip-Hop/Rap"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vkvl",
+              "name": "Hip-Hop/Rap"
+            },
+            "family": false
+          }
+        ],
+        "promoter": {
+          "id": "4725",
+          "name": "Trinity Music GmbH"
+        },
+        "promoters": [
+          {
+            "id": "4725",
+            "name": "Trinity Music GmbH"
+          }
+        ],
+        "info": "Presented by Live Nation",
+        "seatmap": {
+          "staticUrl": "https://media.ticketmaster.eu/germany/c8066711fd4cad40e4321e64b01a6efe.png"
+        },
+        "ticketing": {
+          "safeTix": {
+            "enabled": false
+          }
+        },
+        "nameOrigin": "custom",
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/events/Z698xZC2Z16vxkJ3ut?locale=en-us"
+          },
+          "attractions": [
+            {
+              "href": "/discovery/v2/attractions/K8vZ917LqJ0?locale=en-us"
+            }
+          ],
+          "venues": [
+            {
+              "href": "/discovery/v2/venues/Z698xZC2Za6OR?locale=en-us"
+            }
+          ]
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "type": "venue",
+              "id": "Z698xZC2Za6OR",
+              "test": false,
+              "url": "https://www.ticketmaster.de/venue/metropol-berlin-tickets/bermetropo/753",
+              "locale": "en-us",
+              "postalCode": "10777",
+              "timezone": "Europe/Berlin",
+              "city": {
+                "name": "Berlin"
+              },
+              "country": {
+                "name": "Germany",
+                "countryCode": "DE"
+              },
+              "address": {
+                "line1": "Nollendorfplatz 5"
+              },
+              "location": {
+                "longitude": "13.35052",
+                "latitude": "52.49955"
+              },
+              "upcomingEvents": {
+                "universe": 1,
+                "mfx-de": 16,
+                "_total": 17,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/venues/Z698xZC2Za6OR?locale=en-us"
+                }
+              }
+            }
+          ],
+          "attractions": [
+            {
+              "name": "bleood",
+              "type": "attraction",
+              "id": "K8vZ917LqJ0",
+              "test": false,
+              "url": "https://www.ticketmaster.com/bleood-tickets/artist/4290009",
+              "locale": "en-us",
+              "externalLinks": {
+                "spotify": [
+                  {
+                    "url": "https://open.spotify.com/artist/41GfvEtCZu3KXaThpF01c1"
+                  }
+                ],
+                "instagram": [
+                  {
+                    "url": "https://www.instagram.com/disinfecting"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_SOURCE",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/12c/9fd3f127-dc90-4c36-a36a-f89f325e912c_SOURCE",
+                  "width": 2426,
+                  "height": 1365,
+                  "fallback": false
+                },
+                {
+                  "url": "https://s1.ticketm.net/dam/a/aae/f560c8f6-961d-48dc-9cb8-a2678407baae_SOURCE",
+                  "width": 3222,
+                  "height": 4000,
+                  "fallback": false
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/9d0/f574af99-7f50-462f-b7a6-accd2b84d9d0_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": {
+                    "id": "KZFzniwnSyZfZ7v7nJ",
+                    "name": "Music"
+                  },
+                  "genre": {
+                    "id": "KnvZfZ7vAv1",
+                    "name": "Hip-Hop/Rap"
+                  },
+                  "subGenre": {
+                    "id": "KZazBEonSMnZfZ7vkvl",
+                    "name": "Hip-Hop/Rap"
+                  },
+                  "type": {
+                    "id": "KZAyXgnZfZ7v7la",
+                    "name": "Individual"
+                  },
+                  "subType": {
+                    "id": "KZFzBErXgnZfZ7vAd7",
+                    "name": "Musician"
+                  },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "ticketmaster": 9,
+                "ticketweb": 1,
+                "mfx-de": 2,
+                "_total": 12,
+                "_filtered": 0
+              },
+              "draftStatus": "ACCEPTED",
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ917LqJ0?locale=en-us"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Yaelokre - #yaelokretour",
+        "type": "event",
+        "id": "Z698xZC2Z1kG3GyZZ",
+        "test": false,
+        "url": "https://www.ticketmaster.de/event/yaelokre-yaelokretour-tickets/312339000?language=en-us",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_SOURCE",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          }
+        ],
+        "sales": {
+          "public": {
+            "startDateTime": "2026-05-14T08:00:00Z",
+            "startTBD": false,
+            "startTBA": false,
+            "endDateTime": "2026-10-12T18:00:00Z"
+          }
+        },
+        "dates": {
+          "start": {
+            "localDate": "2026-10-12",
+            "localTime": "20:00:00",
+            "dateTime": "2026-10-12T18:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "Europe/Berlin",
+          "status": {
+            "code": "onsale"
+          },
+          "spanMultipleDays": false
+        },
+        "classifications": [
+          {
+            "primary": false,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAeA",
+              "name": "Rock"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7v6dt",
+              "name": "Alternative Rock"
+            },
+            "family": false
+          },
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAva",
+              "name": "Folk"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vAnF",
+              "name": "Alternative Folk"
+            },
+            "family": false
+          }
+        ],
+        "promoter": {
+          "id": "4725",
+          "name": "Trinity Music GmbH"
+        },
+        "promoters": [
+          {
+            "id": "4725",
+            "name": "Trinity Music GmbH"
+          }
+        ],
+        "info": "Presented by Live Nation",
+        "seatmap": {
+          "staticUrl": "https://media.ticketmaster.eu/germany/842527b6fcee63aae6e583bd290c6465.png"
+        },
+        "ticketing": {
+          "safeTix": {
+            "enabled": false
+          }
+        },
+        "nameOrigin": "custom",
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/events/Z698xZC2Z1kG3GyZZ?locale=en-us"
+          },
+          "attractions": [
+            {
+              "href": "/discovery/v2/attractions/K8vZ917rkk7?locale=en-us"
+            },
+            {
+              "href": "/discovery/v2/attractions/K8vZ9178JUV?locale=en-us"
+            }
+          ],
+          "venues": [
+            {
+              "href": "/discovery/v2/venues/Z698xZC2Za6U6?locale=en-us"
+            }
+          ]
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "type": "venue",
+              "id": "Z698xZC2Za6U6",
+              "test": false,
+              "url": "https://www.ticketmaster.de/venue/hole44-berlin-tickets/berhole/701",
+              "locale": "en-us",
+              "postalCode": "12051",
+              "timezone": "Europe/Berlin",
+              "city": {
+                "name": "Berlin"
+              },
+              "country": {
+                "name": "Germany",
+                "countryCode": "DE"
+              },
+              "address": {
+                "line1": "Hermannstraße 146"
+              },
+              "location": {
+                "longitude": "13.43338",
+                "latitude": "52.46438"
+              },
+              "upcomingEvents": {
+                "mfx-de": 29,
+                "_total": 29,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/venues/Z698xZC2Za6U6?locale=en-us"
+                }
+              }
+            }
+          ],
+          "attractions": [
+            {
+              "name": "Yaelokre",
+              "type": "attraction",
+              "id": "K8vZ917rkk7",
+              "test": false,
+              "url": "https://www.ticketmaster.com/yaelokre-tickets/artist/3620304",
+              "locale": "en-us",
+              "externalLinks": {
+                "facebook": [
+                  {
+                    "url": "https://www.facebook.com/Yaelokre/"
+                  }
+                ],
+                "spotify": [
+                  {
+                    "url": "https://open.spotify.com/artist/3rRyfgGByetsaaujkjQ7rY"
+                  }
+                ],
+                "instagram": [
+                  {
+                    "url": "https://www.instagram.com/yaelokre/"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_SOURCE",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/88f/15bce9f7-e978-4960-bce8-badf777fa88f_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": {
+                    "id": "KZFzniwnSyZfZ7v7nJ",
+                    "name": "Music"
+                  },
+                  "genre": {
+                    "id": "KnvZfZ7vAva",
+                    "name": "Folk"
+                  },
+                  "subGenre": {
+                    "id": "KZazBEonSMnZfZ7vAnF",
+                    "name": "Alternative Folk"
+                  },
+                  "type": {
+                    "id": "KZAyXgnZfZ7v7la",
+                    "name": "Individual"
+                  },
+                  "subType": {
+                    "id": "KZFzBErXgnZfZ7vAde",
+                    "name": "Singer/Vocalist"
+                  },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "mfx-cz": 1,
+                "mfx-ch": 1,
+                "universe": 1,
+                "tmr": 13,
+                "ticketmaster": 12,
+                "mfx-de": 2,
+                "trium": 1,
+                "mfx-pl": 2,
+                "_total": 33,
+                "_filtered": 0
+              },
+              "draftStatus": "ACCEPTED",
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ917rkk7?locale=en-us"
+                }
+              }
+            },
+            {
+              "name": "Ben Caplan",
+              "type": "attraction",
+              "id": "K8vZ9178JUV",
+              "test": false,
+              "url": "https://www.ticketmaster.com/ben-caplan-tickets/artist/1809245",
+              "locale": "en-us",
+              "externalLinks": {
+                "youtube": [
+                  {
+                    "url": "https://www.youtube.com/bencaplanmusic"
+                  }
+                ],
+                "twitter": [
+                  {
+                    "url": "https://twitter.com/bencaplanmusic"
+                  }
+                ],
+                "itunes": [
+                  {
+                    "url": "https://music.apple.com/us/artist/ben-caplan/477212909"
+                  }
+                ],
+                "spotify": [
+                  {
+                    "url": "https://open.spotify.com/artist/5eKwTB9ociIYxmAsVR0kXp?autoplay=true"
+                  }
+                ],
+                "facebook": [
+                  {
+                    "url": "https://www.facebook.com/bencaplanmusic"
+                  }
+                ],
+                "musicbrainz": [
+                  {
+                    "id": "5caafbc8-2a57-4751-9e63-2f72469c56b6",
+                    "url": "https://musicbrainz.org/artist/5caafbc8-2a57-4751-9e63-2f72469c56b6"
+                  }
+                ],
+                "instagram": [
+                  {
+                    "url": "http://instagram.com/bencaplanmusic"
+                  }
+                ],
+                "homepage": [
+                  {
+                    "url": "http://bencaplan.ca/"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/6c9/1a410c4a-005e-4631-9a6e-d2e1182c76c9_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/6c9/1a410c4a-005e-4631-9a6e-d2e1182c76c9_SOURCE",
+                  "width": 2560,
+                  "height": 1680,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/img/tat/cft1/201511/11/754030.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/img/tat/cft1/201511/11/754020.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/6c9/1a410c4a-005e-4631-9a6e-d2e1182c76c9_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/6c9/1a410c4a-005e-4631-9a6e-d2e1182c76c9_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/6c9/1a410c4a-005e-4631-9a6e-d2e1182c76c9_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/6c9/1a410c4a-005e-4631-9a6e-d2e1182c76c9_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/6c9/1a410c4a-005e-4631-9a6e-d2e1182c76c9_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/6c9/1a410c4a-005e-4631-9a6e-d2e1182c76c9_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/6c9/1a410c4a-005e-4631-9a6e-d2e1182c76c9_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": {
+                    "id": "KZFzniwnSyZfZ7v7nJ",
+                    "name": "Music"
+                  },
+                  "genre": {
+                    "id": "KnvZfZ7vAeA",
+                    "name": "Rock"
+                  },
+                  "subGenre": {
+                    "id": "KZazBEonSMnZfZ7v6dt",
+                    "name": "Alternative Rock"
+                  },
+                  "type": {
+                    "id": "KZAyXgnZfZ7v7nI",
+                    "name": "Undefined"
+                  },
+                  "subType": {
+                    "id": "KZFzBErXgnZfZ7v7lJ",
+                    "name": "Undefined"
+                  },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "mfx-cz": 1,
+                "mfx-ch": 1,
+                "universe": 1,
+                "tmr": 10,
+                "ticketmaster": 6,
+                "ticketweb": 5,
+                "mfx-de": 2,
+                "mfx-pl": 2,
+                "_total": 28,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ9178JUV?locale=en-us"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Dizzee Rascal - We Want Bass Tour",
+        "type": "event",
+        "id": "Z698xZC2Z1krp47AN",
+        "test": false,
+        "url": "https://www.ticketmaster.de/event/dizzee-rascal-we-want-bass-tour-tickets/796544163?language=en-us",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_SOURCE",
+            "width": 3130,
+            "height": 2075,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/87b/01a29442-1ed0-4696-95c2-5f23e437787b_SOURCE",
+            "width": 2426,
+            "height": 1365,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          }
+        ],
+        "sales": {
+          "public": {
+            "startDateTime": "2026-06-04T08:00:00Z",
+            "startTBD": false,
+            "startTBA": false,
+            "endDateTime": "2026-10-12T18:00:00Z"
+          }
+        },
+        "dates": {
+          "start": {
+            "localDate": "2026-10-12",
+            "localTime": "20:00:00",
+            "dateTime": "2026-10-12T18:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "Europe/Berlin",
+          "status": {
+            "code": "cancelled"
+          },
+          "spanMultipleDays": false
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAv1",
+              "name": "Hip-Hop/Rap"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vkvl",
+              "name": "Hip-Hop/Rap"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7lt",
+              "name": "Event Style"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7vA6J",
+              "name": "Concert"
+            },
+            "family": false
+          }
+        ],
+        "promoter": {
+          "id": "14451",
+          "name": "Trinity Music GmbH"
+        },
+        "promoters": [
+          {
+            "id": "14451",
+            "name": "Trinity Music GmbH"
+          }
+        ],
+        "info": "Presented by Live Nation",
+        "seatmap": {
+          "staticUrl": "https://media.ticketmaster.eu/germany/6a6b127710c3c8daeeff4ac8538c4363.png"
+        },
+        "ticketing": {
+          "safeTix": {
+            "enabled": false
+          }
+        },
+        "nameOrigin": "custom",
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/events/Z698xZC2Z1krp47AN?locale=en-us"
+          },
+          "attractions": [
+            {
+              "href": "/discovery/v2/attractions/K8vZ9175OS7?locale=en-us"
+            }
+          ],
+          "venues": [
+            {
+              "href": "/discovery/v2/venues/Z698xZC2ZaAul?locale=en-us"
+            }
+          ]
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Columbia Theater",
+              "type": "venue",
+              "id": "Z698xZC2ZaAul",
+              "test": false,
+              "url": "https://www.ticketmaster.de/venue/columbia-theater-berlin-tickets/bercclub/753",
+              "locale": "en-us",
+              "postalCode": "10965",
+              "timezone": "Europe/Berlin",
+              "city": {
+                "name": "Berlin"
+              },
+              "country": {
+                "name": "Germany",
+                "countryCode": "DE"
+              },
+              "address": {
+                "line1": "Columbiadamm 9-11"
+              },
+              "location": {
+                "longitude": "13.3915",
+                "latitude": "52.48461"
+              },
+              "upcomingEvents": {
+                "universe": 1,
+                "mfx-de": 9,
+                "_total": 10,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/venues/Z698xZC2ZaAul?locale=en-us"
+                }
+              }
+            }
+          ],
+          "attractions": [
+            {
+              "name": "Dizzee Rascal",
+              "type": "attraction",
+              "id": "K8vZ9175OS7",
+              "test": false,
+              "url": "https://www.ticketmaster.com/dizzee-rascal-tickets/artist/901377",
+              "locale": "en-us",
+              "externalLinks": {
+                "youtube": [
+                  {
+                    "url": "https://www.youtube.com/user/DizzeeRascalVEVO"
+                  }
+                ],
+                "twitter": [
+                  {
+                    "url": "https://twitter.com/DizzeeRascal"
+                  }
+                ],
+                "itunes": [
+                  {
+                    "url": "https://music.apple.com/gb/artist/dizzee-rascal/3028529"
+                  }
+                ],
+                "lastfm": [
+                  {
+                    "url": "http://www.last.fm/music/Dizzee+Rascal"
+                  }
+                ],
+                "spotify": [
+                  {
+                    "url": "https://open.spotify.com/artist/0gusqTJKxtU1UTmNRMHZcv"
+                  }
+                ],
+                "wiki": [
+                  {
+                    "url": "https://en.wikipedia.org/wiki/Dizzee_Rascal"
+                  }
+                ],
+                "facebook": [
+                  {
+                    "url": "https://www.facebook.com/DizzeeRascal"
+                  }
+                ],
+                "instagram": [
+                  {
+                    "url": "https://www.instagram.com/dizzeerascal/"
+                  }
+                ],
+                "musicbrainz": [
+                  {
+                    "id": "1a99cc88-aea3-4fe3-96b9-20791667f65f",
+                    "url": "https://musicbrainz.org/artist/1a99cc88-aea3-4fe3-96b9-20791667f65f"
+                  }
+                ],
+                "homepage": [
+                  {
+                    "url": "http://www.dizzeerascal.co.uk/"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_SOURCE",
+                  "width": 3130,
+                  "height": 2075,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/87b/01a29442-1ed0-4696-95c2-5f23e437787b_SOURCE",
+                  "width": 2426,
+                  "height": 1365,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/d78/f6ec03a4-ea01-4401-80e6-999aaab1dd78_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": {
+                    "id": "KZFzniwnSyZfZ7v7nJ",
+                    "name": "Music"
+                  },
+                  "genre": {
+                    "id": "KnvZfZ7vAv1",
+                    "name": "Hip-Hop/Rap"
+                  },
+                  "subGenre": {
+                    "id": "KZazBEonSMnZfZ7vkdA",
+                    "name": "Urban"
+                  },
+                  "type": {
+                    "id": "KZAyXgnZfZ7v7nI",
+                    "name": "Undefined"
+                  },
+                  "subType": {
+                    "id": "KZFzBErXgnZfZ7v7lJ",
+                    "name": "Undefined"
+                  },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "mfx-dk": 2,
+                "mfx-se": 1,
+                "ticketmaster": 13,
+                "moshtix": 4,
+                "mfx-de": 1,
+                "mfx-no": 1,
+                "mfx-pl": 1,
+                "_total": 23,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ9175OS7?locale=en-us"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "HONNE - 10 Year anniversary tour",
+        "type": "event",
+        "id": "Z698xZC2Z1k4o-Aap",
+        "test": false,
+        "url": "https://www.ticketmaster.de/event/honne-10-year-anniversary-tour-tickets/551845256?language=en-us",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false
+          },
+          {
+            "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_SOURCE",
+            "width": 3508,
+            "height": 2479,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/0f7/c40847ae-f3f3-49a4-bb01-59fab1eb00f7_SOURCE",
+            "width": 2426,
+            "height": 1607,
+            "fallback": false
+          }
+        ],
+        "sales": {
+          "public": {
+            "startDateTime": "2026-05-28T09:00:00Z",
+            "startTBD": false,
+            "startTBA": false,
+            "endDateTime": "2026-10-13T18:00:00Z"
+          }
+        },
+        "dates": {
+          "start": {
+            "localDate": "2026-10-13",
+            "localTime": "20:00:00",
+            "dateTime": "2026-10-13T18:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "Europe/Berlin",
+          "status": {
+            "code": "onsale"
+          },
+          "spanMultipleDays": false
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAv1",
+              "name": "Hip-Hop/Rap"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7vkvl",
+              "name": "Hip-Hop/Rap"
+            },
+            "family": false
+          }
+        ],
+        "promoter": {
+          "id": "14451",
+          "name": "Trinity Music GmbH"
+        },
+        "promoters": [
+          {
+            "id": "14451",
+            "name": "Trinity Music GmbH"
+          }
+        ],
+        "info": "Presented by Live Nation Wheelchair users and persons with severe disabilities (with designation 'B' on their ID) pay the regular ticket price. Their accompanying persons are admitted free of charge and do not require a ticket.",
+        "seatmap": {
+          "staticUrl": "https://media.ticketmaster.eu/germany/0ab59ca1d2b6f16c64783f6916a9cd8d.png"
+        },
+        "ticketing": {
+          "safeTix": {
+            "enabled": false
+          }
+        },
+        "nameOrigin": "custom",
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/events/Z698xZC2Z1k4o-Aap?locale=en-us"
+          },
+          "attractions": [
+            {
+              "href": "/discovery/v2/attractions/K8vZ9173Wmf?locale=en-us"
+            },
+            {
+              "href": "/discovery/v2/attractions/K8vZ917rmv7?locale=en-us"
+            }
+          ],
+          "venues": [
+            {
+              "href": "/discovery/v2/venues/Z698xZC2Za6fL?locale=en-us"
+            }
+          ]
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "type": "venue",
+              "id": "Z698xZC2Za6fL",
+              "test": false,
+              "url": "https://www.ticketmaster.de/venue/saalchen-berlin-friedrichshain-berlin-tickets/bersaalche/719",
+              "locale": "en-us",
+              "postalCode": "10243",
+              "timezone": "Europe/Berlin",
+              "city": {
+                "name": "Berlin"
+              },
+              "country": {
+                "name": "Germany",
+                "countryCode": "DE"
+              },
+              "address": {
+                "line1": "Holzmarktstraße 25"
+              },
+              "location": {
+                "longitude": "13.42638",
+                "latitude": "52.51177"
+              },
+              "upcomingEvents": {
+                "mfx-de": 8,
+                "_total": 8,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/venues/Z698xZC2Za6fL?locale=en-us"
+                }
+              }
+            }
+          ],
+          "attractions": [
+            {
+              "name": "HONNE",
+              "type": "attraction",
+              "id": "K8vZ9173Wmf",
+              "test": false,
+              "url": "https://www.ticketmaster.com/honne-tickets/artist/2058233",
+              "locale": "en-us",
+              "externalLinks": {
+                "youtube": [
+                  {
+                    "url": "https://www.youtube.com/user/hellohonne"
+                  }
+                ],
+                "twitter": [
+                  {
+                    "url": "https://twitter.com/hellohonne"
+                  }
+                ],
+                "itunes": [
+                  {
+                    "url": "https://music.apple.com/gb/artist/honne/906366067"
+                  }
+                ],
+                "lastfm": [
+                  {
+                    "url": "http://www.last.fm/music/Honne"
+                  }
+                ],
+                "spotify": [
+                  {
+                    "url": "https://open.spotify.com/artist/0Vw76uk7P8yVtTClWyOhac"
+                  }
+                ],
+                "facebook": [
+                  {
+                    "url": "https://www.facebook.com/hellohonne"
+                  }
+                ],
+                "musicbrainz": [
+                  {
+                    "id": "58b599cd-b1de-45e3-863a-3b54194a0f20",
+                    "url": "https://musicbrainz.org/artist/58b599cd-b1de-45e3-863a-3b54194a0f20"
+                  }
+                ],
+                "instagram": [
+                  {
+                    "url": "https://www.instagram.com/hellohonne/"
+                  }
+                ],
+                "homepage": [
+                  {
+                    "url": "http://hellohonne.com/"
+                  }
+                ]
+              },
+              "images": [
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false
+                },
+                {
+                  "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_SOURCE",
+                  "width": 3508,
+                  "height": 2479,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/b20/18d60264-ab9d-4bdf-a1da-8a7a630d7b20_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/0f7/c40847ae-f3f3-49a4-bb01-59fab1eb00f7_SOURCE",
+                  "width": 2426,
+                  "height": 1607,
+                  "fallback": false
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": {
+                    "id": "KZFzniwnSyZfZ7v7nJ",
+                    "name": "Music"
+                  },
+                  "genre": {
+                    "id": "KnvZfZ7vAee",
+                    "name": "R&B"
+                  },
+                  "subGenre": {
+                    "id": "KZazBEonSMnZfZ7vkIt",
+                    "name": "R&B"
+                  },
+                  "type": {
+                    "id": "KZAyXgnZfZ7v7nI",
+                    "name": "Undefined"
+                  },
+                  "subType": {
+                    "id": "KZFzBErXgnZfZ7v7lJ",
+                    "name": "Undefined"
+                  },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "mfx-nl": 1,
+                "mfx-de": 2,
+                "_total": 3,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ9173Wmf?locale=en-us"
+                }
+              }
+            },
+            {
+              "name": "Beka",
+              "type": "attraction",
+              "id": "K8vZ917rmv7",
+              "test": false,
+              "url": "https://www.ticketmaster.com/beka-tickets/artist/3999009",
+              "locale": "en-us",
+              "images": [
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": true
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": true
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": true
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": true
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": true
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": true
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": true
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": true
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": true
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": true
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": {
+                    "id": "KZFzniwnSyZfZ7v7nJ",
+                    "name": "Music"
+                  },
+                  "genre": {
+                    "id": "KnvZfZ7vAv1",
+                    "name": "Hip-Hop/Rap"
+                  },
+                  "subGenre": {
+                    "id": "KZazBEonSMnZfZ7vkvl",
+                    "name": "Hip-Hop/Rap"
+                  },
+                  "type": {
+                    "id": "KZAyXgnZfZ7v7la",
+                    "name": "Individual"
+                  },
+                  "subType": {
+                    "id": "KZFzBErXgnZfZ7vAdn",
+                    "name": "Artist"
+                  },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "mfx-de": 2,
+                "_total": 2,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ917rmv7?locale=en-us"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "Eli - STAGE GIRL",
+        "type": "event",
+        "id": "Z698xZC2Z16v194Y1A",
+        "test": false,
+        "url": "https://www.ticketmaster.de/event/eli-stage-girl-tickets/1297570285?language=en-us",
+        "locale": "en-us",
+        "images": [
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_CUSTOM.jpg",
+            "width": 305,
+            "height": 225,
+            "fallback": false,
+            "attribution": "Eli Tour 2026"
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_SOURCE",
+            "width": 2048,
+            "height": 1152,
+            "fallback": false,
+            "attribution": "Eli Tour 2026"
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_RETINA_PORTRAIT_16_9.jpg",
+            "width": 640,
+            "height": 360,
+            "fallback": false,
+            "attribution": "Eli Tour 2026"
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_RETINA_PORTRAIT_3_2.jpg",
+            "width": 640,
+            "height": 427,
+            "fallback": false,
+            "attribution": "Eli Tour 2026"
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_ARTIST_PAGE_3_2.jpg",
+            "width": 305,
+            "height": 203,
+            "fallback": false,
+            "attribution": "Eli Tour 2026"
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_RETINA_LANDSCAPE_16_9.jpg",
+            "width": 1136,
+            "height": 639,
+            "fallback": false,
+            "attribution": "Eli Tour 2026"
+          },
+          {
+            "ratio": "4_3",
+            "url": "https://s1.ticketm.net/dam/a/098/96d2c381-e29a-4231-838f-6cbacc9ce098_SOURCE",
+            "width": 2426,
+            "height": 1820,
+            "fallback": false
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_EVENT_DETAIL_PAGE_16_9.jpg",
+            "width": 205,
+            "height": 115,
+            "fallback": false,
+            "attribution": "Eli Tour 2026"
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_RECOMENDATION_16_9.jpg",
+            "width": 100,
+            "height": 56,
+            "fallback": false,
+            "attribution": "Eli Tour 2026"
+          },
+          {
+            "ratio": "16_9",
+            "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_TABLET_LANDSCAPE_16_9.jpg",
+            "width": 1024,
+            "height": 576,
+            "fallback": false,
+            "attribution": "Eli Tour 2026"
+          },
+          {
+            "ratio": "3_2",
+            "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_TABLET_LANDSCAPE_3_2.jpg",
+            "width": 1024,
+            "height": 683,
+            "fallback": false,
+            "attribution": "Eli Tour 2026"
+          }
+        ],
+        "sales": {
+          "public": {
+            "startDateTime": "2026-08-28T09:00:00Z",
+            "startTBD": false,
+            "startTBA": false,
+            "endDateTime": "2026-10-14T18:00:00Z"
+          },
+          "presales": [
+            {
+              "startDateTime": "2026-08-27T09:00:00Z",
+              "endDateTime": "2026-08-28T09:00:00Z",
+              "name": "Ticketmaster Presale",
+              "description": "Access this presale at the link below with your Ticketmaster account. Sign in or create an account prior to the start of the sale. No presale code is required.",
+              "shortDescription": "View the link for this presale that is open to all fans",
+              "linkDescription": "Access the Ticketmaster Presale",
+              "url": "https://www.ticketmaster.de/event/1297570285?subchannel_id=11911"
+            },
+            {
+              "startDateTime": "2026-08-26T16:00:00Z",
+              "endDateTime": "2026-08-28T09:00:00Z",
+              "name": "Artist Presale",
+              "description": "Tickets are available exclusively to fans who have been invited by the artist and may require a unique link or code to access tickets.",
+              "shortDescription": "Exclusive Presale for Fans invited by the Artist"
+            }
+          ]
+        },
+        "dates": {
+          "start": {
+            "localDate": "2026-10-14",
+            "localTime": "20:00:00",
+            "dateTime": "2026-10-14T18:00:00Z",
+            "dateTBD": false,
+            "dateTBA": false,
+            "timeTBA": false,
+            "noSpecificTime": false
+          },
+          "timezone": "Europe/Berlin",
+          "status": {
+            "code": "postponed"
+          },
+          "spanMultipleDays": false
+        },
+        "classifications": [
+          {
+            "primary": true,
+            "segment": {
+              "id": "KZFzniwnSyZfZ7v7nJ",
+              "name": "Music"
+            },
+            "genre": {
+              "id": "KnvZfZ7vAeA",
+              "name": "Rock"
+            },
+            "subGenre": {
+              "id": "KZazBEonSMnZfZ7v6F1",
+              "name": "Pop"
+            },
+            "type": {
+              "id": "KZAyXgnZfZ7v7lt",
+              "name": "Event Style"
+            },
+            "subType": {
+              "id": "KZFzBErXgnZfZ7vA6J",
+              "name": "Concert"
+            },
+            "family": false
+          }
+        ],
+        "promoter": {
+          "id": "4725",
+          "name": "Trinity Music GmbH"
+        },
+        "promoters": [
+          {
+            "id": "4725",
+            "name": "Trinity Music GmbH"
+          }
+        ],
+        "info": "Presented by Live Nation Eli has partnered with PLUS1 so that €1.20 per ticket will be donated by Live Nation. www.plus1.org",
+        "seatmap": {
+          "staticUrl": "https://media.ticketmaster.eu/germany/a26230ad9fddc5666d87c9e5e5a990c7.png"
+        },
+        "ticketing": {
+          "safeTix": {
+            "enabled": false
+          }
+        },
+        "nameOrigin": "custom",
+        "_links": {
+          "self": {
+            "href": "/discovery/v2/events/Z698xZC2Z16v194Y1A?locale=en-us"
+          },
+          "attractions": [
+            {
+              "href": "/discovery/v2/attractions/K8vZ91793O0?locale=en-us"
+            }
+          ],
+          "venues": [
+            {
+              "href": "/discovery/v2/venues/Z698xZC2Zaa2W?locale=en-us"
+            }
+          ]
+        },
+        "_embedded": {
+          "venues": [
+            {
+              "name": "Mikropol",
+              "type": "venue",
+              "id": "Z698xZC2Zaa2W",
+              "test": false,
+              "url": "https://www.ticketmaster.de/venue/mikropol-berlin-tickets/bermikro/753",
+              "locale": "en-us",
+              "postalCode": "10777",
+              "timezone": "Europe/Berlin",
+              "city": {
+                "name": "Berlin"
+              },
+              "country": {
+                "name": "Germany",
+                "countryCode": "DE"
+              },
+              "address": {
+                "line1": "Nollendorfplatz 5"
+              },
+              "location": {
+                "longitude": "13.35416",
+                "latitude": "52.49948"
+              },
+              "upcomingEvents": {
+                "mfx-de": 12,
+                "_total": 12,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/venues/Z698xZC2Zaa2W?locale=en-us"
+                }
+              }
+            }
+          ],
+          "attractions": [
+            {
+              "name": "Eli",
+              "type": "attraction",
+              "id": "K8vZ91793O0",
+              "test": false,
+              "url": "https://www.ticketmaster.com/eli-tickets/artist/707083",
+              "locale": "en-us",
+              "images": [
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_CUSTOM.jpg",
+                  "width": 305,
+                  "height": 225,
+                  "fallback": false,
+                  "attribution": "Eli Tour 2026"
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_SOURCE",
+                  "width": 2048,
+                  "height": 1152,
+                  "fallback": false,
+                  "attribution": "Eli Tour 2026"
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_RETINA_PORTRAIT_16_9.jpg",
+                  "width": 640,
+                  "height": 360,
+                  "fallback": false,
+                  "attribution": "Eli Tour 2026"
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_RETINA_PORTRAIT_3_2.jpg",
+                  "width": 640,
+                  "height": 427,
+                  "fallback": false,
+                  "attribution": "Eli Tour 2026"
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_ARTIST_PAGE_3_2.jpg",
+                  "width": 305,
+                  "height": 203,
+                  "fallback": false,
+                  "attribution": "Eli Tour 2026"
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_RETINA_LANDSCAPE_16_9.jpg",
+                  "width": 1136,
+                  "height": 639,
+                  "fallback": false,
+                  "attribution": "Eli Tour 2026"
+                },
+                {
+                  "ratio": "4_3",
+                  "url": "https://s1.ticketm.net/dam/a/098/96d2c381-e29a-4231-838f-6cbacc9ce098_SOURCE",
+                  "width": 2426,
+                  "height": 1820,
+                  "fallback": false
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_EVENT_DETAIL_PAGE_16_9.jpg",
+                  "width": 205,
+                  "height": 115,
+                  "fallback": false,
+                  "attribution": "Eli Tour 2026"
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_RECOMENDATION_16_9.jpg",
+                  "width": 100,
+                  "height": 56,
+                  "fallback": false,
+                  "attribution": "Eli Tour 2026"
+                },
+                {
+                  "ratio": "16_9",
+                  "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_TABLET_LANDSCAPE_16_9.jpg",
+                  "width": 1024,
+                  "height": 576,
+                  "fallback": false,
+                  "attribution": "Eli Tour 2026"
+                },
+                {
+                  "ratio": "3_2",
+                  "url": "https://s1.ticketm.net/dam/a/57e/140979d0-3893-47e7-86ca-e4430dd5057e_TABLET_LANDSCAPE_3_2.jpg",
+                  "width": 1024,
+                  "height": 683,
+                  "fallback": false,
+                  "attribution": "Eli Tour 2026"
+                }
+              ],
+              "classifications": [
+                {
+                  "primary": true,
+                  "segment": {
+                    "id": "KZFzniwnSyZfZ7v7nJ",
+                    "name": "Music"
+                  },
+                  "genre": {
+                    "id": "KnvZfZ7vAev",
+                    "name": "Pop"
+                  },
+                  "subGenre": {
+                    "id": "KZazBEonSMnZfZ7vkIk",
+                    "name": "Singer-Songwriter"
+                  },
+                  "type": {
+                    "id": "KZAyXgnZfZ7v7la",
+                    "name": "Individual"
+                  },
+                  "subType": {
+                    "id": "KZFzBErXgnZfZ7vAd7",
+                    "name": "Musician"
+                  },
+                  "family": false
+                }
+              ],
+              "upcomingEvents": {
+                "ticketmaster": 2,
+                "trium": 1,
+                "mfx-de": 2,
+                "_total": 5,
+                "_filtered": 0
+              },
+              "_links": {
+                "self": {
+                  "href": "/discovery/v2/attractions/K8vZ91793O0?locale=en-us"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "first": {
+      "href": "/discovery/v2/events.json?city=Berlin&countryCode=DE&classificationName=Music&page=0&size=5&sort=date,asc"
+    },
+    "self": {
+      "href": "/discovery/v2/events.json?size=5&city=Berlin&countryCode=DE&classificationName=Music&sort=date%2Casc"
+    },
+    "next": {
+      "href": "/discovery/v2/events.json?city=Berlin&countryCode=DE&classificationName=Music&page=1&size=5&sort=date,asc"
+    },
+    "last": {
+      "href": "/discovery/v2/events.json?city=Berlin&countryCode=DE&classificationName=Music&page=66&size=5&sort=date,asc"
+    }
+  },
+  "page": {
+    "size": 5,
+    "totalElements": 335,
+    "totalPages": 67,
+    "number": 0
+  }
+}

@@ -92,6 +92,12 @@ that hides "never loaded" state.
 - If a proposal forces an architectural choice, write the ADR first and reference it from the change.
 - ADRs never describe current behaviour. Specs never argue for an architecture.
 
+
+## Model gate
+
+After I approve a plan, stop and ask: "Plan approved. Ready to implement. Switch model now if
+you want, then tell me to go." Do not start writing code until I say go.
+
 ## Tech Stack
 
 - Kotlin Multiplatform with Compose Multiplatform

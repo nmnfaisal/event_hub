@@ -1,0 +1,128 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "a43fc77badfb26f31558dd577fa960d2",
+    "entities": [
+      {
+        "tableName": "events",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`category` TEXT NOT NULL, `eventId` TEXT NOT NULL, `name` TEXT NOT NULL, `startsAtEpochMs` INTEGER NOT NULL, `timeZoneId` TEXT, `hasSpecificTime` INTEGER NOT NULL, `venueName` TEXT, `heroImageUrl` TEXT, `thumbnailUrl` TEXT, `status` TEXT NOT NULL, `attractionKey` TEXT NOT NULL, `relevanceRank` INTEGER NOT NULL, `priceMinMinor` INTEGER, `priceCurrency` TEXT, PRIMARY KEY(`category`, `eventId`))",
+        "fields": [
+          {
+            "fieldPath": "category",
+            "columnName": "category",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "eventId",
+            "columnName": "eventId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startsAtEpochMs",
+            "columnName": "startsAtEpochMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timeZoneId",
+            "columnName": "timeZoneId",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "hasSpecificTime",
+            "columnName": "hasSpecificTime",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "venueName",
+            "columnName": "venueName",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "heroImageUrl",
+            "columnName": "heroImageUrl",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "thumbnailUrl",
+            "columnName": "thumbnailUrl",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "status",
+            "columnName": "status",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "attractionKey",
+            "columnName": "attractionKey",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "relevanceRank",
+            "columnName": "relevanceRank",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "priceMinMinor",
+            "columnName": "priceMinMinor",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "priceCurrency",
+            "columnName": "priceCurrency",
+            "affinity": "TEXT"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "category",
+            "eventId"
+          ]
+        }
+      },
+      {
+        "tableName": "category_fetch",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`category` TEXT NOT NULL, `fetchedAtEpochMs` INTEGER NOT NULL, PRIMARY KEY(`category`))",
+        "fields": [
+          {
+            "fieldPath": "category",
+            "columnName": "category",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fetchedAtEpochMs",
+            "columnName": "fetchedAtEpochMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "category"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'a43fc77badfb26f31558dd577fa960d2')"
+    ]
+  }
+}
