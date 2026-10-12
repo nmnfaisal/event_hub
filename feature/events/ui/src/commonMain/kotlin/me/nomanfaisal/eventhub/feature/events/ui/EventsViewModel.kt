@@ -51,7 +51,9 @@ class EventsViewModel(
                             HomeUiState(category, result.toBody(category, userRefresh))
                         }
                     }
-                    .onStart { emit(HomeUiState(category, HomeBody.Loading)) }
+                    // Skeleton only for a category that has never loaded; a cached one goes
+                    // straight to its content instead of flashing Loading first.
+                    .onStart { if (!getEvents.isLoaded(category)) emit(HomeUiState(category, HomeBody.Loading)) }
             }
             .stateIn(
                 scope = viewModelScope,

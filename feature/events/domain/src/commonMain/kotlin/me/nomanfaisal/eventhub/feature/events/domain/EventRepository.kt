@@ -16,4 +16,10 @@ interface EventRepository {
         category: EventCategory,
         forceRefresh: Boolean,
     ): Flow<Result<EventFeed, DataError>>
+
+    /**
+     * True once [category] has been loaded successfully at least once. Lets the UI show the
+     * Loading skeleton only for a category that has never been loaded (Rule 10).
+     */
+    suspend fun isLoaded(category: EventCategory): Boolean
 }

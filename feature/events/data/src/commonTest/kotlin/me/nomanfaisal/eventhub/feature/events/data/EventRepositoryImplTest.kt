@@ -209,6 +209,22 @@ class EventRepositoryImplTest : RoomTest() {
         }
     }
 
+    @Test
+    fun isLoadedIsFalseUntilFirstSuccessAndTrueForEmptyLoad() = runTest {
+        val repo = repo(Server { emptyOk }, FakeClock(start))
+        assertEquals(false, repo.isLoaded(EventCategory.Film))
+        repo.observeEvents(EventCategory.Film, false).test { settledFeed(); cancelAndIgnoreRemainingEvents() }
+        assertEquals(true, repo.isLoaded(EventCategory.Film))
+        assertEquals(false, repo.isLoaded(EventCategory.Music))
+    }
+
+    @Test
+    fun isLoadedStaysFalseAfterFailedFirstLoad() = runTest {
+        val repo = repo(Server { HttpStatusCode.InternalServerError to "{}" }, FakeClock(start))
+        repo.observeEvents(EventCategory.All, false).test { awaitItem(); cancelAndIgnoreRemainingEvents() }
+        assertEquals(false, repo.isLoaded(EventCategory.All))
+    }
+
     @Test // AC-14 at repository level
     fun categoriesAreFetchedAndCachedSeparately() = runTest {
         val server = Server { ok(event("a", "2026-10-13T18:00:00Z")) }

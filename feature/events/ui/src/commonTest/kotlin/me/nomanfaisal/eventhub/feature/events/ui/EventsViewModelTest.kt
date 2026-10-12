@@ -85,6 +85,28 @@ class EventsViewModelTest {
     }
 
     @Test
+    fun switchingToACachedCategoryNeverShowsTheSkeleton() = runTest {
+        repo.set(EventCategory.Music, feed(event("m")))
+        repo.set(EventCategory.Sports, feed(event("s")))
+        val vm = viewModel()
+        vm.state.test {
+            awaitItem() // initial Loading, before anything is collected
+            vm.onAction(HomeAction.SelectCategory(EventCategory.Music))
+            advanceUntilIdle()
+            val afterMusic = cancelAndConsumeRemainingEvents().filterIsInstance<app.cash.turbine.Event.Item<HomeUiState>>()
+            assertTrue(afterMusic.none { it.value.body == HomeBody.Loading }, "cached Music must not flash Loading")
+        }
+        vm.state.test {
+            awaitItem() // current state (Music content)
+            vm.onAction(HomeAction.SelectCategory(EventCategory.Sports))
+            advanceUntilIdle()
+            val items = cancelAndConsumeRemainingEvents().filterIsInstance<app.cash.turbine.Event.Item<HomeUiState>>()
+            assertTrue(items.none { it.value.body == HomeBody.Loading }, "cached Sports must not flash Loading")
+            assertEquals(EventCategory.Sports, items.last().value.selectedCategory)
+        }
+    }
+
+    @Test
     fun selectingAChipSelectsItAndDefaultIsAll() = runTest {
         val vm = viewModel()
         vm.state.test {

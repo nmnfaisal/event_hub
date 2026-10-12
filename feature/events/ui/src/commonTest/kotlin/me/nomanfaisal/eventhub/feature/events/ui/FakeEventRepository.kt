@@ -24,6 +24,8 @@ class FakeEventRepository : EventRepository {
         results.getOrPut(category) { MutableStateFlow(null) }.value = result
     }
 
+    override suspend fun isLoaded(category: EventCategory): Boolean = results[category]?.value is Result.Success
+
     @OptIn(ExperimentalCoroutinesApi::class)
     override fun observeEvents(category: EventCategory, forceRefresh: Boolean): Flow<Result<EventFeed, DataError>> {
         calls += category to forceRefresh

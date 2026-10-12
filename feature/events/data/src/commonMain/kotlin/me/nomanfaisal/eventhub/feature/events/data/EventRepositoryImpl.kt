@@ -76,6 +76,8 @@ internal class EventRepositoryImpl(
         data class Failed(val error: DataError) : FetchState
     }
 
+    override suspend fun isLoaded(category: EventCategory): Boolean = dao.fetchRow(category.name) != null
+
     private suspend fun fetchAndStore(category: EventCategory, now: Instant): Result<Unit, DataError> =
         when (val response = api.fetchEvents(category, now)) {
             is Result.Error -> response

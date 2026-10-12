@@ -122,5 +122,7 @@ class GetEventsUseCaseTest {
     private class FakeRepository(private val result: Result<EventFeed, DataError>) : EventRepository {
         override fun observeEvents(category: EventCategory, forceRefresh: Boolean): Flow<Result<EventFeed, DataError>> =
             flowOf(result)
+
+        override suspend fun isLoaded(category: EventCategory): Boolean = result is Result.Success
     }
 }

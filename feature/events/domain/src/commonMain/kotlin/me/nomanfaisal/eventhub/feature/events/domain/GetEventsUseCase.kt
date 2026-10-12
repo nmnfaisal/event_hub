@@ -25,6 +25,8 @@ class GetEventsUseCase(private val repository: EventRepository) {
             }
         }
 
+    suspend fun isLoaded(category: EventCategory): Boolean = repository.isLoaded(category)
+
     private fun EventFeed.toHomeFeed(): HomeFeed {
         val visible = events.filter { it.status != EventStatus.Cancelled }
         val trending = visible
